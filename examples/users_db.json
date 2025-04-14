@@ -1,0 +1,46 @@
+{
+    "name": "users_db",
+    "tables": {
+        "users": {
+            "columns": [
+                {
+                    "name": "id",
+                    "type": "IntegerType",
+                    "nullable": false
+                },
+                {
+                    "name": "name",
+                    "type": "StringType",
+                    "nullable": false
+                },
+                {
+                    "name": "email",
+                    "type": "StringType",
+                    "nullable": false
+                }
+            ],
+            "rows": [
+                {
+                    "id": 1,
+                    "name": "Alice",
+                    "email": "alice@example.com"
+                },
+                {
+                    "id": 2,
+                    "name": "Bob",
+                    "email": "bob@example.com"
+                },
+                {
+                    "id": 3,
+                    "name": "Charlie",
+                    "email": "charlie@example.com"
+                },
+                {
+                    "id": 4,
+                    "name": "David",
+                    "email": "david@example.com"
+                }
+            ]
+        }
+    }
+}
