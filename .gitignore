@@ -1,0 +1,56 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+env/
+venv/
+
+# Pytest cache
+.pytest_cache/
+
+# VSCode settings (if using VSCode)
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Windows system files
+Thumbs.db
+
+# Python environment files
+*.env
+*.venv
+
+# Database files (if not intended to be versioned)
+*.db
+*.json
+
+# Logs
+*.log
+
+# Coverage reports
+htmlcov/
+.coverage
+coverage.xml
+*.cover
+*.pyc
+*.pyo
+
+# Python build directories
+build/
+dist/
+*.egg-info/
+
+# Requirements files (optional, if generated dynamically)
+pip-log.txt
+
+# Test artifacts
+*.tmp
+*.bak
+*.swp
+
+# Example files (if not essential for the repository)
+examples/demo.py
